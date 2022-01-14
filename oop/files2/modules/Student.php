@@ -16,7 +16,7 @@
          */
         public function getCourse()
         {
-            return $this->course;
+            return $this->course . ' course';
         }
 
         /**
