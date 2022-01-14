@@ -14,10 +14,13 @@
         public function add($num)
         {
             $this->numbers[] = $num;
+            return $this;
         }
+
         public function push($numbers)
         {
             $this->numbers = array_merge($this->numbers, $numbers);
+            return $this;
         }
 
         // Находит сумму чисел набора:

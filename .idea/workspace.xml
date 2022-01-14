@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e2ffd7c-28ac-4438-a1bb-848c70319f99" name="Default Changelist" comment="" />
+    <list default="true" id="3e2ffd7c-28ac-4438-a1bb-848c70319f99" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/files2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/files2/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/files2/modules/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/files2/modules/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/files3/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/files3/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/files3/modules/Arr.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/files3/modules/Arr.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +16,9 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpServers">
     <servers>
       <server host="ftp" id="fc9793c1-18b9-47de-aef9-bbfe8e1ede74" name="ftp" />
@@ -17,6 +26,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
   <component name="ProjectId" id="22yKUxlcS2G27x0AozyGQzMPwKj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,7 +56,7 @@
       <recent name="D:\OpenServer\domains\FTP\Practice" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.index.php (3)">
+  <component name="RunManager" selected="PHP Script.index.php (2)">
     <configuration name="index.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/oop/file1/index.php">
       <method v="2" />
     </configuration>
@@ -59,21 +69,16 @@
     <configuration name="index.php (4)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/oop/files4/index.php">
       <method v="2" />
     </configuration>
-    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ddt/index.php">
-      <CommandLine>
-        <PhpTestInterpreterSettings>
-          <option name="interpreterName" value="PHP 8.0" />
-        </PhpTestInterpreterSettings>
-      </CommandLine>
+    <configuration name="index.php (5)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/oop/filles5/index.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.index.php (2)" />
+        <item itemvalue="PHP Script.index.php (5)" />
         <item itemvalue="PHP Script.index.php (3)" />
         <item itemvalue="PHP Script.index.php (4)" />
-        <item itemvalue="PHP Script.index.php (2)" />
         <item itemvalue="PHP Script.index.php (1)" />
-        <item itemvalue="PHP Script.index.php" />
       </list>
     </recent_temporary>
   </component>
@@ -98,12 +103,35 @@
       <workItem from="1641924858560" duration="6722000" />
       <workItem from="1642009854571" duration="10088000" />
       <workItem from="1642094476905" duration="13032000" />
-      <workItem from="1642188387898" duration="1299000" />
+      <workItem from="1642188387898" duration="4693000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
