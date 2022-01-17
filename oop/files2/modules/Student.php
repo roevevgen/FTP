@@ -14,7 +14,7 @@
         /**
          * @return mixed
          */
-        public function getCourse()
+        public function getCourse(): string
         {
             return $this->course . ' course';
         }
@@ -25,5 +25,20 @@
         public function setCourse($course): void
         {
             $this->course = $course;
+        }
+
+        public function addOneYear()
+        {
+            $this->age++;
+        }
+
+
+        public function setAge($age)
+        {
+            if ($age <= 25) {
+                parent::setAge($age);
+            } else {
+                echo 'Ты уже не студент';
+            }
         }
     }

@@ -5,7 +5,7 @@
     {
         protected $name;
         protected $age;
-        protected $years;
+        private $years;
 
         public function __construct($name, $age, $years)
         {
@@ -30,7 +30,7 @@
 //            $this->years = $years;
 //        }
 
-        private function isAgeCorrect($age)
+        private function isAgeCorrect($age): bool
         {
             if ($age >= 18 and $age <= 100) {
                 return true;

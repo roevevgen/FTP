@@ -17,6 +17,8 @@
     unset($employee);
 
     $student = new Student('Nik', 45, 34, 3 );
+    $student->addOneYear();
+    $student->setAge(25). '<br>';
     echo $student->getName() . ' ' . $student->getAge() . ' ' . $student->getCourse() . '<br>';
 
     $bsu = new StudentBSU('Kiril', 45, 36, 3 , 45);

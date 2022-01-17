@@ -1,5 +1,9 @@
 <?php
     require_once 'modules/Arr.php';
-    $arr = new Arr; // создаем объект
+    require_once 'modules/SumHelper.php';
+    $arr = new Arr(); // создаем объект
+    $arr->add(1);
+    $arr->add(3);
+    $arr->add(6);
 
-    echo $arr->add(1)->push([2, 4])->add(3)->getSum();
+    echo $arr->getSum23();
