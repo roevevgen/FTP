@@ -2,6 +2,7 @@
     require_once 'modules/User.php';
     require_once 'modules/Employee.php';
     require_once 'modules/Student.php';
+    require_once 'modules/StudentBSU.php';
 
     $user = new User('Luis', 34, 45);
     $user->setAge(70);
@@ -17,3 +18,7 @@
 
     $student = new Student('Nik', 45, 34, 3 );
     echo $student->getName() . ' ' . $student->getAge() . ' ' . $student->getCourse() . '<br>';
+
+    $bsu = new StudentBSU('Kiril', 45, 36, 3 , 45);
+    $bsu->setBsu('Close');
+    echo $bsu->getName() . ' ' . $bsu->getAge() . ' ' . $bsu->getCourse() . ' ' . $bsu ->getBsu() . '<br>';

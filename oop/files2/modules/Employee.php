@@ -14,7 +14,7 @@
         /**
          * @return mixed
          */
-        public function getSalary()
+        public function getSalary(): string
         {
             return $this->salary . ' $';
         }

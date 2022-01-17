@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e2ffd7c-28ac-4438-a1bb-848c70319f99" name="Default Changelist" comment="Student">
-      <change beforePath="$PROJECT_DIR$/oop/files2/modules/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/files2/modules/Student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/files2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/files2/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/files2/modules/Employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/files2/modules/Employee.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../modules/php/PHP_7.4/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Code" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -40,7 +42,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -100,6 +102,7 @@
       <workItem from="1642009854571" duration="10088000" />
       <workItem from="1642094476905" duration="13032000" />
       <workItem from="1642188387898" duration="7881000" />
+      <workItem from="1642426670092" duration="2500000" />
     </task>
     <task id="LOCAL-00001" summary="Employee">
       <created>1642193274815</created>
@@ -143,6 +146,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Employee" />
