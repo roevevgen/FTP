@@ -18,3 +18,6 @@
     var_dump($employeesCollection->get());
 
     //    echo $employeesCollection->count();
+   var_dump($employeesCollection instanceof Employee);
+
+   var_dump($employee instanceof Employee);
