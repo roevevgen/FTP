@@ -20,8 +20,8 @@
         // Добавляем нового работника:
         public function add($newEmployee)
         {
-            if (!$this->exists($newEmployee)) {
-                $this->employees[] = $newEmployee; // $employee - объект класса Employee
+            if (!in_array($newEmployee, $this->employees, true)) {
+                $this->employees[] = $newEmployee;
             }
 
         }
@@ -37,14 +37,14 @@
 //
 //            return $sum;
 //        }
-        private function exists($newEmployee): bool
-        {
-            foreach ($this->employees as $employee) {
-                if ($employee === $newEmployee) { // сравниваем через ===
-                    return true;
-                }
-            }
-
-            return false;
-        }
+//        private function exists($newEmployee): bool
+//        {
+//            foreach ($this->employees as $employee) {
+//                if ($employee === $newEmployee) { // сравниваем через ===
+//                    return true;
+//                }
+//            }
+//
+//            return false;
+//        }
     }
