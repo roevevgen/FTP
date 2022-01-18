@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e2ffd7c-28ac-4438-a1bb-848c70319f99" name="Default Changelist" comment="StudentBsu">
+    <list default="true" id="3e2ffd7c-28ac-4438-a1bb-848c70319f99" name="Default Changelist" comment="Employee">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/files2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/files2/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/files2/modules/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/files2/modules/Student.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/files2/modules/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/files2/modules/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/files3/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/files3/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/files3/modules/Arr.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/files3/modules/Arr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/filles5/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/files5/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/filles5/modules/ArraySumHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/files5/modules/ArraySumHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/files6/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/files6/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/files6/modules/Employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/files6/modules/Employee.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/files6/modules/EmployeesCollection.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/files6/modules/EmployeesCollection.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/oop/files6/index.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../torrent/Php/[ITDVN] PHP 7.4 Базовый (2021)" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -115,7 +111,8 @@
       <workItem from="1642094476905" duration="13032000" />
       <workItem from="1642188387898" duration="7881000" />
       <workItem from="1642426670092" duration="3725000" />
-      <workItem from="1642441886460" duration="5831000" />
+      <workItem from="1642441886460" duration="6596000" />
+      <workItem from="1642534605185" duration="1587000" />
     </task>
     <task id="LOCAL-00001" summary="Employee">
       <created>1642193274815</created>
@@ -138,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642433012857</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Employee">
+      <created>1642448105909</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642448105910</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,10 +173,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Employee" />
     <MESSAGE value="Student" />
     <MESSAGE value="StudentBsu" />
-    <option name="LAST_COMMIT_MESSAGE" value="StudentBsu" />
+    <MESSAGE value="Employee" />
+    <option name="LAST_COMMIT_MESSAGE" value="Employee" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

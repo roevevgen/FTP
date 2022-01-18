@@ -4,7 +4,7 @@
     class Employee
     {
         private $name;
-        protected $salary;
+        private $salary;
 
         public function __construct($name, $salary)
         {
