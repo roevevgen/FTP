@@ -3,8 +3,8 @@
 
     class UsersCollection
     {
-        private array $employees = []; // массив работников
-        private array $students = []; // массив студентов
+        private  $employees = []; // массив работников
+        private  $students = []; // массив студентов
 
         // Добавление в массивы:
         public function add($user)
