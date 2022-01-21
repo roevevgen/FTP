@@ -14,4 +14,14 @@
 
     echo Geometry::getCircleCircuit(56) . '<br>';
 
-    echo Geometry::getCircleSquare(4);
+    echo Geometry::getCircleSquare(4) . '<br>';
+
+    $test = new Test();
+    $test->usualProperty = 'usual';
+    echo $test->usualProperty . '<br>';
+
+    Test::$staticProperty = 'static';
+    $test1 = new Test();
+
+//    Test::$staticProperty = 'static';
+    echo $test1::$staticProperty;

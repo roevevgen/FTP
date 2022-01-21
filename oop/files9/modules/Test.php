@@ -3,7 +3,9 @@
 
     class Test
     {
+        public static $staticProperty;
         private static string $property = 'Help me';
+        public $usualProperty;
 
         /**
          * @return mixed
