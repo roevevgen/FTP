@@ -17,11 +17,5 @@
     echo Geometry::getCircleSquare(4) . '<br>';
 
     $test = new Test();
-    $test->usualProperty = 'usual';
-    echo $test->usualProperty . '<br>';
+    $test->method();
 
-    Test::$staticProperty = 'static';
-    $test1 = new Test();
-
-//    Test::$staticProperty = 'static';
-    echo $test1::$staticProperty;

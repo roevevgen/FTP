@@ -3,9 +3,9 @@
 
     class Test
     {
-        public static $staticProperty;
+        public static string $staticProperty = 'static';
         private static string $property = 'Help me';
-        public $usualProperty;
+        public string $usualProperty = 'usual';
 
         /**
          * @return mixed
@@ -21,5 +21,11 @@
         public static function setProperty($value): void
         {
             self::$property = $value;
+        }
+
+        public function method()
+        {
+            var_dump(self::$staticProperty) . '<br>'; // выведет 'static'
+            var_dump($this->usualProperty);  // выведет 'usual'
         }
     }
