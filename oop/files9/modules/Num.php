@@ -3,8 +3,8 @@
 
     class Num
     {
-        private static $num1 = 2;
-        private static $num2 = 3;
+        private static  $num1 = 2;
+        private static  $num2 = 3;
 
         public static function getSum($num1, $num2)
         {
