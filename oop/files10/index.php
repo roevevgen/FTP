@@ -9,5 +9,5 @@
     echo User::getCount() . '<br>';
 
     $circle = new Circle(10);
-    echo Circle::getSquare(4) .'<br>';
-    echo Circle::getCircuit(3);
+    echo Circle::getSquare(10) .'<br>';
+    echo Circle::getCircuit(10);
