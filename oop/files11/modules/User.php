@@ -21,7 +21,15 @@
             $this->name = $name;
         }
 
+        /**
+         * @param $value
+         * @return mixed
+         */
         abstract public function increaseRevenue($value);
 
+        /**
+         * @param $value
+         * @return mixed
+         */
         abstract public function decreaseRevenue($value);
     }

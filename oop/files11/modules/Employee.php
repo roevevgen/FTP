@@ -21,12 +21,20 @@
             $this->salary = $salary;
         }
 
+        /**
+         * @param $value
+         * @return mixed|void
+         */
         public function increaseRevenue($value)
         {
             // TODO: Implement increaseRevenue() method.
             $this->salary = $this->salary + $value;
         }
 
+        /**
+         * @param $value
+         * @return mixed|void
+         */
         public function decreaseRevenue($value)
         {
             // TODO: Implement decreaseRevenue() method.
