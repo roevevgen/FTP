@@ -22,5 +22,6 @@
         }
 
         abstract public function increaseRevenue($value);
+
         abstract public function decreaseRevenue($value);
     }
