@@ -4,6 +4,7 @@
     require_once 'modules/Student.php';
     require_once 'modules/Figure.php';
     require_once 'modules/Quadrant.php';
+    require_once 'modules/Rectangle.php';
 
     $employee = new Employee();
     $employee->setName('Clod');
@@ -25,4 +26,8 @@
 
     $quadrant = new Quadrant(2);
     echo $quadrant->getSquare() . '<br>';
-    echo $quadrant->getPerimeter();
+    echo $quadrant->getPerimeter() . '<br>';
+
+    $rectangle = new Rectangle(2, 4);
+    echo $rectangle->getSquare() . '<br>';
+    echo $rectangle->getPerimeter();
