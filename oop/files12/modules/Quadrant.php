@@ -1,7 +1,7 @@
 <?php
 
 
-    class Quadrate implements Figure
+    class Quadrant implements Figure
     {
 
         private $a;
