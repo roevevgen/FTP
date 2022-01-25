@@ -27,7 +27,11 @@
     $quadrant = new Quadrant(2);
     echo $quadrant->getSquare() . '<br>';
     echo $quadrant->getPerimeter() . '<br>';
+    echo $quadrant->getSquarePerimeterSum() . '<br>';
+    echo $quadrant->getRatio() . '<hr>';
 
     $rectangle = new Rectangle(2, 4);
     echo $rectangle->getSquare() . '<br>';
-    echo $rectangle->getPerimeter();
+    echo $rectangle->getPerimeter(). '<br>';
+    echo $rectangle->getSquarePerimeterSum() . '<br>';
+    echo $rectangle->getRatio();

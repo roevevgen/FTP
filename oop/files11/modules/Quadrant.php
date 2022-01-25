@@ -22,4 +22,12 @@
             // TODO: Implement getPerimeter() method.
             return 4 * $this->a;
         }
+        public function getSquarePerimeterSum()
+        {
+            // TODO: Implement getSquarePerimeterSum() method.// находить сумму площади и периметра P=2(a+b), S=a*b
+            $perimeter = 2 * ($this->a + $this->a);
+            $square = $this->a * $this->a;
+
+            return $perimeter + $square;
+        }
     }
