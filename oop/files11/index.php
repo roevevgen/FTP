@@ -2,6 +2,8 @@
     require_once 'modules/User.php';
     require_once 'modules/Employee.php';
     require_once 'modules/Student.php';
+    require_once 'modules/Figure.php';
+    require_once 'modules/Quadrant.php';
 
     $employee = new Employee();
     $employee->setName('Clod');
@@ -20,3 +22,7 @@
     echo $student->getScholarship() . '<br>';
     unset($employee);
     unset($student);
+
+    $quadrant = new Quadrant(2);
+    echo $quadrant->getSquare() . '<br>';
+    echo $quadrant->getPerimeter();
