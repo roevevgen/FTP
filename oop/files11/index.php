@@ -18,3 +18,5 @@
     $student->decreaseRevenue(34);
 
     echo $student->getScholarship() . '<br>';
+    unset($employee);
+    unset($student);
