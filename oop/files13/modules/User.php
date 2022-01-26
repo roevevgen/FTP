@@ -9,12 +9,40 @@
         /**
          * @param $name
          */
-        public function __unset($name){
-            if(!property_exists($this,$name))
-            {
+        public function __unset($name)
+        {
+            if (!property_exists($this, $name)) {
                 die('__unset:Такого свойства не существует');
             }
             $this->$name = null;
+        }
+
+        /**
+         * @param $name
+         * @param $value
+         */
+        public function __set($name, $value)
+        {
+            if(!property_exists($this,$name))
+            {
+                die('Такого свойства не существует');
+            }
+
+            $this->$name = htmlentities($value);
+        }
+
+        /**
+         * @param $name
+         * @return string
+         */
+        public function __get($name): string
+        {
+            if(!property_exists($this,$name))
+            {
+                die('Такого свойства не существует');
+            }
+
+            return html_entity_decode($this->$name);
         }
 
         public function setName($name)
