@@ -3,7 +3,9 @@
 
     class Math implements iMath
     {
-
+        /**
+         * @param $name
+         */
         public function __unset($name){
             if(!property_exists($this,$name))
             {
