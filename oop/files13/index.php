@@ -9,6 +9,8 @@
     echo 'Divide ' . $math->divide(3, 5) . '<hr>';
     echo 'Subtract ' . $math->subtract(4, 8) . '<hr>';
     echo 'Multiply ' . $math->multiply(3, 5) . '<hr>';
+    $math->het = 123;
+    echo $math->het;
 
     unset($math);
     var_dump($math);

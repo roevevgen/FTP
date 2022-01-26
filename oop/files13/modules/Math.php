@@ -22,7 +22,7 @@
         {
             if(!property_exists($this,$name))
             {
-                die('Такого свойства не существует');
+                die('__set Такого свойства не существует');
             }
 
             $this->$name = htmlentities($value);
@@ -36,7 +36,7 @@
         {
             if(!property_exists($this,$name))
             {
-                die('Такого свойства не существует');
+                die('__get Такого свойства не существует');
             }
 
             return html_entity_decode($this->$name);
