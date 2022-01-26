@@ -4,6 +4,14 @@
     class Math implements iMath
     {
 
+        public function __unset($name){
+            if(!property_exists($this,$name))
+            {
+                die('__unset:Такого свойства не существует');
+            }
+            $this->$name = null;
+        }
+
         public function sum($a, $b)
         {
             // TODO: Implement sum() method.

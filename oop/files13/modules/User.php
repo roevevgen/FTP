@@ -6,6 +6,14 @@
         private $name;
         private $age;
 
+        public function __unset($name){
+            if(!property_exists($this,$name))
+            {
+                die('__unset:Такого свойства не существует');
+            }
+            $this->$name = null;
+        }
+
         public function setName($name)
         {
             // TODO: Implement setName() method.

@@ -11,6 +11,7 @@
     echo 'Multiply ' . $math->multiply(3, 5) . '<hr>';
 
     unset($math);
+    var_dump($math);
 
     $user = new User();
     $user->setName('Ivan');
@@ -18,3 +19,6 @@
 
     echo $user->getName() . '<hr>';
     echo $user->getAge();
+    unset($user);
+    echo '<hr>';
+    var_dump($user);
