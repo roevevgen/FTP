@@ -42,24 +42,44 @@
             return html_entity_decode($this->$name);
         }
 
+        /**
+         * @param $a
+         * @param $b
+         * @return mixed
+         */
         public function sum($a, $b)
         {
             // TODO: Implement sum() method.
             return $a + $b;
         }
 
+        /**
+         * @param $a
+         * @param $b
+         * @return mixed
+         */
         public function subtract($a, $b)
         {
             // TODO: Implement subtract() method.
             return $a - $b;
         }
 
+        /**
+         * @param $a
+         * @param $b
+         * @return float|int
+         */
         public function multiply($a, $b)
         {
             // TODO: Implement multiply() method.
             return $a * $b;
         }
 
+        /**
+         * @param $a
+         * @param $b
+         * @return float|int
+         */
         public function divide($a, $b)
         {
             // TODO: Implement divide() method.

@@ -45,24 +45,36 @@
             return html_entity_decode($this->$name);
         }
 
+        /**
+         * @param $name
+         */
         public function setName($name)
         {
             // TODO: Implement setName() method.
             $this->name = $name;
         }
 
+        /**
+         * @return mixed
+         */
         public function getName()
         {
             // TODO: Implement getName() method.
             return $this->name;
         }
 
+        /**
+         * @param $age
+         */
         public function setAge($age)
         {
             // TODO: Implement setAge() method.
             $this->age = $age;
         }
 
+        /**
+         * @return mixed
+         */
         public function getAge()
         {
             // TODO: Implement getAge() method.
