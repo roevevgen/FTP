@@ -1,5 +1,11 @@
 <?php
-    require_once 'modules/Car.php';
+    declare(strict_types=1);
+
+    namespace ftp\file1;
+
+    use ftp\file1\modules\Car;
+
+    require __DIR__ .  '/autoloader/autoloader.php';
 
     $car = [
         new Car('Hummer', 'black', 45),

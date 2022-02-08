@@ -1,5 +1,7 @@
 <?php
+declare(strict_types=1);
 
+namespace ftp\file1\modules;
 
     class Car
     {
