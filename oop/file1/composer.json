@@ -1,0 +1,21 @@
+{
+    "name": "evgen/file1",
+    "autoload": {
+        "files": [
+            "modules/Car.php"
+        ],
+        "psr-4": {
+            "Evgen\\File1\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "roevevgen",
+            "email": "roevevgen7@gmail.com"
+        }
+    ],
+    "require": {
+        "fzaninotto/faker": "^1.9",
+        "symfony/var-dumper": "^5.4"
+    }
+}
