@@ -1,12 +1,22 @@
 <?php
 
-
+    namespace files2\modules;
+    /**
+     * Class User
+     * @package modules
+     */
     class User
     {
         protected $name;
         protected $age;
         private $years;
 
+        /**
+         * User constructor.
+         * @param $name
+         * @param $age
+         * @param $years
+         */
         public function __construct($name, $age, $years)
         {
             $this->name = $name;
@@ -29,7 +39,10 @@
 //        {
 //            $this->years = $years;
 //        }
-
+        /**
+         * @param $age
+         * @return bool
+         */
         private function isAgeCorrect($age): bool
         {
             if ($age >= 18 and $age <= 100) {

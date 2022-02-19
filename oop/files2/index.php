@@ -1,8 +1,11 @@
 <?php
-    require_once 'modules/User.php';
-    require_once 'modules/Employee.php';
-    require_once 'modules/Student.php';
-    require_once 'modules/StudentBSU.php';
+    require_once __DIR__ . '/vendor/autoload.php';
+
+    use files2\modules\Employee;
+    use files2\modules\Student;
+    use files2\modules\StudentBSU;
+    use files2\modules\User;
+
 
     $user = new User('Luis', 34, 45);
     $user->setAge(70);

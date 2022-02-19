@@ -5,7 +5,7 @@
 
     require_once __DIR__ . '/vendor/autoload.php';
 
-    use modules\Car;
+    use file1\modules\Car;
 
     $faker = Faker\Factory::create() ;
     echo $faker->name;

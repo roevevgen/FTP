@@ -5,7 +5,7 @@
             "modules/Car.php"
         ],
         "psr-4": {
-            "Evgen\\File1\\": "./"
+            "file1\\": "./"
         }
     },
     "authors": [

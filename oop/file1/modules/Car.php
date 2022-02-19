@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace modules;
+namespace file1\modules;
 
     class Car
     {
